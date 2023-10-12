@@ -21,7 +21,7 @@ header h1{
     font-size: x-large;
 }
 
-section>div{
+section >div{
     background-color: bisque;
     display: flex;
     flex-direction: row;
@@ -33,5 +33,14 @@ section>div{
 
 li:nth-child(2n){
     font-size: x-large;
+}
+
+section {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
